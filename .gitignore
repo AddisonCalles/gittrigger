@@ -1,0 +1,10 @@
+src/**/*
+src/
+src
+jest.config.ts
+coverage
+.vscode
+.github
+tests
+dist
+node_modules

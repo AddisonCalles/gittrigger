@@ -1,0 +1,14 @@
+{
+    "repos":[
+        {
+            "path": "~/localrepos/propiedades-ssr",
+            "branches": ["develop"],
+            "commands": ["~/bin/scan-localrepos.sh propiedades-ssr"]
+        },
+        {
+            "path": "~/localrepos/propiedades-ssr-master",
+            "branches": ["master"],
+            "commands": ["~/bin/scan-localrepos.sh propiedades-ssr-master"]
+        }
+    ]
+}

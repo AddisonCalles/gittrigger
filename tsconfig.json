@@ -1,0 +1,28 @@
+{
+  "include": ["src", "types", "./src/*/.ts", "./src/.ts", "./src///.ts"],
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "lib": ["dom", "esnext"],
+    "importHelpers": true,
+    "declaration": true,
+    "sourceMap": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "resolveJsonModule": true,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noEmit": false,
+    "allowJs":false,
+  }
+}
