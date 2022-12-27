@@ -1,13 +1,15 @@
 {
-    "repos":[
+    "trigger":[
         {
             "path": "~/localrepos/propiedades-ssr",
             "branches": ["develop"],
+            "event": "all",
             "commands": ["~/bin/scan-localrepos.sh propiedades-ssr"]
         },
         {
             "path": "~/localrepos/propiedades-ssr-master",
             "branches": ["master"],
+            "event": "all",
             "commands": ["~/bin/scan-localrepos.sh propiedades-ssr-master"]
         }
     ]
